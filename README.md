@@ -90,3 +90,8 @@ escolher qual programa quer rodar
 # FUNÇÃO  VOLTAR_AO_MENU: 
 voltar ao inicio
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+links
+https://www.coalize.com.br/calculadora-de-inss
+https://www.idinheiro.com.br/calculadoras/calculadora-imposto-de-renda/
