@@ -26,5 +26,15 @@ namespace iRh.Windows
         {
 
         }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simuladoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
