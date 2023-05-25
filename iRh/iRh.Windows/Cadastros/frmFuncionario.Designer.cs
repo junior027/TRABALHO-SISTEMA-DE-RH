@@ -1,6 +1,6 @@
-﻿namespace iRh.Windows.Simuladores
+﻿namespace iRh.Windows.Cadastros
 {
-    partial class frmBeneficioAdiconalNoturno
+    partial class frmFuncionario
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "frmBeneficioAdiconalNoturno";
+            this.Text = "frmFuncionario";
         }
 
         #endregion

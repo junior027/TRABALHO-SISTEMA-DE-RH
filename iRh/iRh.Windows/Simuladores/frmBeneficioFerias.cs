@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iRh.Windows.Simuladores
 {
-    public partial class frmBeneficioAdiconalNoturno : Form
+    public partial class frmBeneficioFerias : Form
     {
-        public frmBeneficioAdiconalNoturno()
+        public frmBeneficioFerias()
         {
             InitializeComponent();
         }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5B392C6-A000-4C98-997E-BC4C6F7A3504}</ProjectGuid>
+    <ProjectGuid>{26733F42-EEC6-44C0-8BFD-34E3101E4A7C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>iRh.Windows</RootNamespace>
     <AssemblyName>iRh.Windows</AssemblyName>
@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadastro\frmFuncionarios.xaml.cs">
-      <DependentUpon>frmFuncionarios.xaml</DependentUpon>
+    <Compile Include="Cadastros\frmFuncionario.cs">
+      <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Cadastros\frmFuncionario.Designer.cs">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Inss.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,23 +61,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simuladores\frmBeneficioAdiconalNoturno.cs">
+    <Compile Include="Simuladores\frmBeneficioAdicionalNoturno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Simuladores\frmBeneficioAdiconalNoturno.Designer.cs">
-      <DependentUpon>frmBeneficioAdiconalNoturno.cs</DependentUpon>
+    <Compile Include="Simuladores\frmBeneficioAdicionalNoturno.Designer.cs">
+      <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioFerias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioFerias.Designer.cs">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioFgts.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioFgts.Designer.cs">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Simuladores\frmBeneficioFérias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Simuladores\frmBeneficioFérias.Designer.cs">
-      <DependentUpon>frmBeneficioFérias.cs</DependentUpon>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioHoraExtra.cs">
       <SubType>Form</SubType>
@@ -129,6 +133,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
+      <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,10 +150,5 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Cadastro\frmFuncionarios.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
