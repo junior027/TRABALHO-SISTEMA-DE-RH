@@ -52,7 +52,11 @@
     <Compile Include="Cadastros\frmFuncionario.Designer.cs">
       <DependentUpon>frmFuncionario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\Irpf.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,9 +136,34 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioAdicionalNoturno.resx">
+      <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
+      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioHoraExtra.resx">
+      <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPis.resx">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioSeguroDesemprego.resx">
+      <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
+      <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -149,6 +178,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\irrf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vale.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
