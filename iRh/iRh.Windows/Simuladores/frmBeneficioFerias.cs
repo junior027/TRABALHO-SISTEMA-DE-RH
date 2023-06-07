@@ -30,5 +30,15 @@ namespace iRh.Windows.Simuladores
             var totalReceber = total - irpf - inss;
             lblResultado.Text = totalReceber.ToString("C");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmBeneficioFerias_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,10 +32,12 @@
             this.lblSalario = new System.Windows.Forms.Label();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.lblHoras = new System.Windows.Forms.Label();
             this.txtHoras = new System.Windows.Forms.TextBox();
-            this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCacular
@@ -72,6 +74,15 @@
             this.panelResultado.Size = new System.Drawing.Size(200, 100);
             this.panelResultado.TabIndex = 3;
             // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(3, 12);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(55, 13);
+            this.lblResultado.TabIndex = 6;
+            this.lblResultado.Text = "Resultado";
+            // 
             // lblHoras
             // 
             this.lblHoras.AutoSize = true;
@@ -88,30 +99,32 @@
             this.txtHoras.Size = new System.Drawing.Size(100, 20);
             this.txtHoras.TabIndex = 5;
             // 
-            // lblResultado
+            // pictureBox1
             // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(3, 12);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(55, 13);
-            this.lblResultado.TabIndex = 6;
-            this.lblResultado.Text = "Resultado";
+            this.pictureBox1.Image = global::iRh.Windows.Properties.Resources.not;
+            this.pictureBox1.Location = new System.Drawing.Point(-6, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(794, 459);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // frmBeneficioAdicionalNoturno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(745, 429);
             this.Controls.Add(this.txtHoras);
             this.Controls.Add(this.lblHoras);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.btnCacular);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "frmBeneficioAdicionalNoturno";
             this.Text = "frmBeneficioAdicionalNoturno";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,5 +139,6 @@
         private System.Windows.Forms.Label lblHoras;
         private System.Windows.Forms.TextBox txtHoras;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

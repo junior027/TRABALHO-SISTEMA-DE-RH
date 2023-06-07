@@ -33,7 +33,9 @@
             this.lblSalario = new System.Windows.Forms.Label();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -65,9 +67,9 @@
             // panelResultado
             // 
             this.panelResultado.Controls.Add(this.lblResultado);
-            this.panelResultado.Location = new System.Drawing.Point(12, 328);
+            this.panelResultado.Location = new System.Drawing.Point(12, 268);
             this.panelResultado.Name = "panelResultado";
-            this.panelResultado.Size = new System.Drawing.Size(200, 100);
+            this.panelResultado.Size = new System.Drawing.Size(200, 92);
             this.panelResultado.TabIndex = 3;
             // 
             // lblResultado
@@ -79,19 +81,33 @@
             this.lblResultado.TabIndex = 4;
             this.lblResultado.Text = "Resultado";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::iRh.Windows.Properties.Resources.feee;
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(673, 378);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // frmBeneficioFerias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(666, 379);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "frmBeneficioFerias";
             this.Text = "frmBeneficioFerias";
+            this.Load += new System.EventHandler(this.frmBeneficioFerias_Load);
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +120,6 @@
         private System.Windows.Forms.Label lblSalario;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

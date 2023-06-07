@@ -141,6 +141,9 @@
     <EmbeddedResource Include="Simuladores\frmBeneficioAdicionalNoturno.resx">
       <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFerias.resx">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +189,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feee.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

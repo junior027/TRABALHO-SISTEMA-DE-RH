@@ -63,6 +63,26 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap feee {
+            get {
+                object obj = ResourceManager.GetObject("feee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fer {
+            get {
+                object obj = ResourceManager.GetObject("fer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap foto {
             get {
                 object obj = ResourceManager.GetObject("foto", resourceCulture);
@@ -76,6 +96,16 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap irrf {
             get {
                 object obj = ResourceManager.GetObject("irrf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap not {
+            get {
+                object obj = ResourceManager.GetObject("not", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
