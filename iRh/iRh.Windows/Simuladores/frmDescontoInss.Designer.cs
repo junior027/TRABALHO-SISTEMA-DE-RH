@@ -33,7 +33,9 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSalario
@@ -84,6 +86,16 @@
             this.lblResultado.TabIndex = 4;
             this.lblResultado.Text = "lblResultado";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::iRh.Windows.Properties.Resources.ins;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, -5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(380, 260);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmDescontoInss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -93,10 +105,12 @@
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "frmDescontoInss";
             this.Text = "Desconto de INSS";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,5 +123,6 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

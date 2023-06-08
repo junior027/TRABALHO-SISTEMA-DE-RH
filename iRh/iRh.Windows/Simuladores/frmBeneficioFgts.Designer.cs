@@ -33,7 +33,9 @@
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCalcula
@@ -79,6 +81,15 @@
             this.lblResultado.TabIndex = 4;
             this.lblResultado.Text = "Resultado";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::iRh.Windows.Properties.Resources.fg;
+            this.pictureBox1.Location = new System.Drawing.Point(-121, -36);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(941, 513);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmBeneficioFgts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -88,10 +99,12 @@
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.btnCalcula);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "frmBeneficioFgts";
             this.Text = "frmBeneficioFgts";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +117,6 @@
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

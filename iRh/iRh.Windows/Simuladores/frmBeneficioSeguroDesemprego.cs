@@ -138,5 +138,10 @@ namespace iRh.Windows.Simuladores
                 MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void frmBeneficioSeguroDesemprego_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

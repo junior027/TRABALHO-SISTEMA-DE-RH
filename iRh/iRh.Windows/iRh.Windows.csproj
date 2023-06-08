@@ -199,5 +199,29 @@
   <ItemGroup>
     <None Include="Resources\feee.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\per.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotooo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\segy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ins.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

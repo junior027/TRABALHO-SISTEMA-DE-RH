@@ -47,11 +47,13 @@
             this.rbDomingosFeriadosNao = new System.Windows.Forms.RadioButton();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelDomingosFeriados.SuspendLayout();
             this.gbDiasUteis.SuspendLayout();
             this.panelDiasUteis.SuspendLayout();
             this.gbDomingosFeriados.SuspendLayout();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -235,6 +237,15 @@
             this.lblResultado.TabIndex = 6;
             this.lblResultado.Text = "Resultado";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::iRh.Windows.Properties.Resources.hora;
+            this.pictureBox1.Location = new System.Drawing.Point(-5, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(806, 457);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmBeneficioHoraExtra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,6 +259,7 @@
             this.Controls.Add(this.panelDomingosFeriados);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "frmBeneficioHoraExtra";
             this.Text = "frmBeneficioHoraExtra";
             this.Load += new System.EventHandler(this.frmBeneficioHoraExtra_Load);
@@ -261,6 +273,7 @@
             this.gbDomingosFeriados.PerformLayout();
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,5 +300,6 @@
         private System.Windows.Forms.RadioButton rbDomingosFeriadosNao;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
