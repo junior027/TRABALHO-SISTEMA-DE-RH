@@ -53,6 +53,8 @@
       <DependentUpon>frmFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Core\AdicionalNoturno.cs" />
+    <Compile Include="Core\Colaborador.cs" />
+    <Compile Include="Core\Estados.cs" />
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irpf.cs" />
@@ -125,6 +127,9 @@
     <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cadastros\frmFuncionario.resx">
+      <DependentUpon>frmFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrincipalMdi.resx">
       <DependentUpon>PrincipalMdi.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +227,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHA.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
