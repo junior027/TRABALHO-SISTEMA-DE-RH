@@ -42,5 +42,13 @@ namespace iRh.Windows.Cadastros
             CarregarEstados 
 
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            var cepDigitado = txtCep.Text;
+
+            var endereco = new Endereco();
+            var enderecoCompleto = endereco.ObterPorCep(cepDigitado); 
+        }
     }
 }
