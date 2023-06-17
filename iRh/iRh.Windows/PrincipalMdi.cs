@@ -99,5 +99,11 @@ namespace iRh.Windows
             form.MdiParent = this;
             form.Show();
         }
+        private void simulaçãoCompletaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new frmSimulacaoCompleta();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }
